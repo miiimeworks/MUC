@@ -7,7 +7,7 @@ Supports both 'Delete' mode and 'Exclude' mode.
 Can also work as a companion tool for MIIIME Hybrid Launcher (MHL).
 
 이 도구는 INI 설정 파일에 정의된 규칙에 따라 불필요한 파일과 폴더를 정리합니다.  
-'삭제(Delete)' 모드와 '남기기(Exclude)' 모드를 지원하며, 미메런쳐의 보조 도구로 사용할 수 있습니다.
+'삭제(Delete)' 모드와 '남기기(Exclude)' 모드를 지원하며, 미메런처의 보조 도구로 사용할 수 있습니다.
 
 ========================================================================
 [File Organization]
@@ -36,7 +36,7 @@ Place MIIIMEUniCleaner.exe and MIIIMEUniCleaner.ini in the same folder as the *_
 The cleaner will automatically read the [CleanupExclude] and [CleanupDelete] sections from the *_M.ini, 
 ignoring the SmartSkip flag.
 
-MIIIMEUniCleaner.exe 와 MIIIMEUniCleaner.ini 를 런쳐(*_M.ini)와 동일한 폴더에 배치. 
+MIIIMEUniCleaner.exe 와 MIIIMEUniCleaner.ini 를 런처(*_M.ini)와 동일한 폴더에 배치. 
 [CleanupExclude] / [CleanupDelete] 섹션을 *_M.ini 에서 자동으로 읽어 실행. (SmartSkip 값 무시).
 
 ※ Setting tips / 설정 팁 :
