@@ -18,6 +18,10 @@ Can also work as a companion tool for MIIIME Hybrid Launcher.
 '삭제(Delete)' 모드와 '남기기(Exclude)' 모드를 지원하며, 미메런처의 보조 도구로 사용할 수 있습니다.
 <br>
 
+<br>
+<img width="402" height="197" alt="001" src="https://github.com/miiimeworks/MUC/blob/main/Preview/001.png?raw=true" style="margin-top: 20px; margin-bottom: 20px;">
+<br>
+
 ---
 
 ### File Organization
