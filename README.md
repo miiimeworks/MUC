@@ -10,11 +10,11 @@ MIIIMEUniCleaner · 미메클리너
 <img width="559" height="136" alt="001" src="https://github.com/miiimeworks/M4T/blob/main/4bit_Enhanced/Id/Neon/4b_136_1_G.png?raw=true" style="margin-top: 20px; margin-bottom: 20px;">
 <br>
 
-This tool cleans up unnecessary files and folders according to rules defined in the INI configuration file.  
+MIIIMECleaner cleans up unnecessary files and folders according to rules defined in the INI configuration file.  
 Supports both 'Delete' mode and 'Exclude' mode.
 Can also work as a companion tool for MIIIME Hybrid Launcher.
 
-이 도구는 INI 설정 파일에 정의된 규칙에 따라 불필요한 파일과 폴더를 정리합니다.  
+미메클리너는 INI 설정 파일에 정의된 규칙에 따라 불필요한 파일과 폴더를 정리합니다.  
 '삭제(Delete)' 모드와 '남기기(Exclude)' 모드를 지원하며, 미메런처의 보조 도구로 사용할 수 있습니다.
 
 <br>
