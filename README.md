@@ -12,10 +12,10 @@ MIIIMEUniCleaner · 미메클리너
 
 Cleans up unnecessary files and folders according to rules defined in the INI configuration file.   
 Supports both 'Delete' mode and 'Exclude' mode.
-Can also work as a companion tool for MIIIME Hybrid Launcher.
+Can also work as a companion tool for MIIIMETools.
 
 INI 설정 파일에 정의된 규칙에 따라 불필요한 파일과 폴더를 정리합니다.  
-'삭제(Delete)' 모드와 '남기기(Exclude)' 모드를 지원하며, 미메런처의 보조 도구로 사용할 수 있습니다.
+'삭제(Delete)' 모드와 '남기기(Exclude)' 모드를 지원하며, 미메툴즈의 보조 도구로 사용할 수 있습니다.
 
 <br>
 <img width="402" height="197" alt="001" src="https://github.com/miiimeworks/MUC/blob/main/Preview/001.png?raw=true" style="margin-top: 20px; margin-bottom: 20px;">
@@ -46,16 +46,15 @@ MIIIMEUniCleaner.ini     # [Settings] Cleanup target and rules / 정리 대상 �
    섹션에 정리 대상을 추가.
 2. [MIIIMEUniCleaner.exe]를 실행.
 
-### Linked Mode (MHL)
+### Linked Mode
 
-- Place MIIIMEUniCleaner.exe and MIIIMEUniCleaner.ini in the same folder as the *_M.ini launcher file. 
-- The cleaner will automatically read the [CleanupExclude] and [CleanupDelete] sections from the *_M.ini, 
-  ignoring the SmartSkip flag.
+- If there are no items in the [CleanupExclude] / [CleanupDelete] section,
+Run cleanup by referring to LinkedIniName in the same path as MIIIMEUniCleaner.exe.
 
 **[연동 모드]**
 
-- MIIIMEUniCleaner.exe 와 MIIIMEUniCleaner.ini 를 런처(*_M.ini)와 동일한 폴더에 배치. 
-- [CleanupExclude] / [CleanupDelete] 섹션을 *_M.ini 에서 자동으로 읽어 실행. (SmartSkip 값 무시).
+- [CleanupExclude] / [CleanupDelete] 섹션에 항목이 없는 경우,
+MIIIMEUniCleaner.exe 와 동일한 경로에 있는 LinkedIniName을 참고하여 클린업 실행.
 
 ### Setting tips
 
@@ -73,18 +72,18 @@ MIIIMEUniCleaner.ini     # [Settings] Cleanup target and rules / 정리 대상 �
 
 ## 🛡️ Security & Anti-virus Info
 
-### [✅ VirusTotal Analysis Report](https://www.virustotal.com/gui/file/47e1be90bb19d901ce6ec7bc0706e0b7ce8689b49b9015d2c94dd7523f09d594?nocache=1)
+### [✅ VirusTotal Analysis Report](https://www.virustotal.com/gui/file/81f40368b2f29f4b86265c8287b5aba3e79cc041f417e68130e8546ff5d042af?nocache=1)
 
 | Status             | Details                                                                        |
 |:------------------ |:------------------------------------------------------------------------------ |
 | **Major Vendors**  | **Clean** (Passed by AhnLab V3, Kaspersky, Microsoft, Avast, ESET, etc.)       |
-| **Detection Rate** | **8 / 72** (Mostly Heuristic/Generic/Trojan-type flags)                        |
+| **Detection Rate** | **7 / 71** (Mostly Heuristic/Generic/Trojan-type flags)                        |
 | **Integrity**      | The source code is transparently available for verification in this repository |
 
 > This Program was created with AutoIt. Some antivirus programs may incorrectly detect it as a virus.  
 > 본 프로그램은 AutoIt으로 제작되었습니다. 일부 백신이 바이러스로 오진 할 수 있습니다. 
 
-**File Checksum (SHA-256) :** `47e1be90bb19d901ce6ec7bc0706e0b7ce8689b49b9015d2c94dd7523f09d594`
+**File Checksum (SHA-256) :** `81f40368b2f29f4b86265c8287b5aba3e79cc041f417e68130e8546ff5d042af`
 
 ---
 
@@ -103,7 +102,7 @@ This is a **private project**. No technical support is provided.
 **Developer** : MIIIME  
 **Website** : https://www.miiime.com  
 **GitHub** : [@miiimeworks](https://github.com/miiimeworks)  
-**Last Update** : 2026-05-04   
+**Last Update** : 2026-10-10   
 
 <br>
 <img width="64" height="64" alt="002" src="https://github.com/miiimeworks/M4T/blob/main/4bit_Brutal/Logo/Neon/4b_Mium_64_0_G.png?raw=true">  

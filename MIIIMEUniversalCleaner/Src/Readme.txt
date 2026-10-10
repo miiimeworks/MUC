@@ -2,12 +2,12 @@
              MIIIME Universal Cleaner (MUC™)
 ========================================================================
 
-This tool cleans up unnecessary files and folders according to rules defined in the INI configuration file.  
+Cleans up unnecessary files and folders according to rules defined in the INI configuration file.   
 Supports both 'Delete' mode and 'Exclude' mode.
-Can also work as a companion tool for MIIIME Hybrid Launcher (MHL).
+Can also work as a companion tool for MIIIMETools.
 
-이 도구는 INI 설정 파일에 정의된 규칙에 따라 불필요한 파일과 폴더를 정리합니다.  
-'삭제(Delete)' 모드와 '남기기(Exclude)' 모드를 지원하며, 미메런처의 보조 도구로 사용할 수 있습니다.
+INI 설정 파일에 정의된 규칙에 따라 불필요한 파일과 폴더를 정리합니다.  
+'삭제(Delete)' 모드와 '남기기(Exclude)' 모드를 지원하며, 미메툴즈의 보조 도구로 사용할 수 있습니다.
 
 ========================================================================
 [File Organization]
@@ -30,14 +30,13 @@ MIIIMEUniCleaner.ini	# [Settings] Configuration file / [설정] 설정 파일
    섹션에 정리 대상 경로를 추가.
 2. [MIIIMEUniCleaner.exe]를 실행.
 
---- Linked Mode (MHL) / 연동 모드 ---
+--- Linked Mode / 연동 모드 ---
 
-Place MIIIMEUniCleaner.exe and MIIIMEUniCleaner.ini in the same folder as the *_M.ini launcher file. 
-The cleaner will automatically read the [CleanupExclude] and [CleanupDelete] sections from the *_M.ini, 
-ignoring the SmartSkip flag.
+If there are no items in the [CleanupExclude] / [CleanupDelete] section,
+Run cleanup by referring to LinkedIniName in the same path as MIIIMEUniCleaner.exe.
 
-MIIIMEUniCleaner.exe 와 MIIIMEUniCleaner.ini 를 런처(*_M.ini)와 동일한 폴더에 배치. 
-[CleanupExclude] / [CleanupDelete] 섹션을 *_M.ini 에서 자동으로 읽어 실행. (SmartSkip 값 무시).
+[CleanupExclude] / [CleanupDelete] 섹션에 항목이 없는 경우,
+MIIIMEUniCleaner.exe 와 동일한 경로에 있는 LinkedIniName을 참고하여 클린업 실행.
 
 ※ Setting tips / 설정 팁 :
  - [CleanupExclude] : Keeps only the listed items, deletes the rest. / 목록의 항목만 남기고 나머지를 삭제.    
@@ -60,4 +59,4 @@ This is a **private project**. No technical support is provided.
 Developer	: MIIIME 
 Website		: https://www.miiime.com 
 GitHub		: @miiimeworks 
-Update      	: 2026.03.08
+Update      	: 2026.10.10
