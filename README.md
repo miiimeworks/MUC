@@ -1,6 +1,6 @@
 # MIIIME Universal Cleaner (MUC™)
 
-MIIIMEUniCleaner · 미메클리너
+MIIIMECleaner · 미메클리너
 
 ![OS](https://img.shields.io/badge/Platform-Windows-0078D4?logo=windows&style=flat-square)
 [![Language](https://img.shields.io/badge/Language-AutoIt-orange?logo=autoit&style=flat-square)](https://www.autoitscript.com/site/)
