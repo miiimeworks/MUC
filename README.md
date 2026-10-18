@@ -78,7 +78,7 @@ MIIIMEUniCleaner.exe 와 동일한 경로에 있는 LinkedIniName을 참고하�
 |:------------------ |:------------------------------------------------------------------------------ |
 | **Major Vendors**  | **Clean** (Passed by AhnLab V3, Kaspersky, Microsoft, Avast, ESET, etc.)       |
 | **Detection Rate** | **7 / 71** (Mostly Heuristic/Generic/Trojan-type flags)                        |
-| **Integrity**      | The source is private, and the distribution files can be verified using hashes and VirusTotal results. |
+| **Integrity**      | Private project; verified via hashes and VT results. 						  |
 
 > This Program was created with AutoIt. Some antivirus programs may incorrectly detect it as a virus.  
 > 본 프로그램은 AutoIt으로 제작되었습니다. 일부 백신이 바이러스로 오진 할 수 있습니다. 
