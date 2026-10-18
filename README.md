@@ -56,11 +56,21 @@ Run cleanup by referring to LinkedIniName in the same path as MIIIMEUniCleaner.e
 - [CleanupExclude] / [CleanupDelete] 섹션에 항목이 없는 경우,
 MIIIMEUniCleaner.exe 와 동일한 경로에 있는 LinkedIniName을 참고하여 클린업 실행.
 
+- LinkedIniName ([Options]) is a priority list separated by pipes (`|`). e.g. `|*_x64_M|*_M|*_x86_M|`  
+Entries are searched in order, and the first entry that finds an .ini file is used.  
+An error occurs if one entry finds two or more files, or if no entry finds a file.
+
+- LinkedIniName([Options])은 파이프(`|`)로 구분된 우선순위 목록입니다. 예: `|*_x64_M|*_M|*_x86_M|`  
+앞에서부터 차례로 탐색하여 .ini 파일이 발견된 첫 항목을 사용합니다.  
+한 항목에서 2개 이상 발견되거나 어느 항목에서도 발견되지 않으면 에러가 발생합니다.
+
 ### Setting tips
 
 - [CleanupExclude] : Keeps only the listed items, deletes the rest.    
 
 - [CleanupDelete] : Deletes the listed items.
+
+- Safety : Drive roots, Documents, Desktop, Windows, Program Files, etc. are blocked by default.
 
 **[설정 팁]**
 
@@ -68,22 +78,24 @@ MIIIMEUniCleaner.exe 와 동일한 경로에 있는 LinkedIniName을 참고하�
 
 - [CleanupDelete] : 목록의 항목을 삭제.  
 
+- 안전장치 : 드라이브 루트, 문서, 바탕화면, Windows, Program Files 등은 기본적으로 삭제가 차단됩니다.
+
 ---
 
 ## 🛡️ Security & Anti-virus Info
 
-### [✅ VirusTotal Analysis Report](https://www.virustotal.com/gui/file/81f40368b2f29f4b86265c8287b5aba3e79cc041f417e68130e8546ff5d042af?nocache=1)
+### [✅ VirusTotal Analysis Report](https://www.virustotal.com/gui/file/eb786d98123746c36c3b8ac4b85faab95bdeee1f6a7c2c5d2a3908e69b551d1f?nocache=1)
 
 | Status             | Details                                                                        |
 |:------------------ |:------------------------------------------------------------------------------ |
 | **Major Vendors**  | **Clean** (Passed by AhnLab V3, Kaspersky, Microsoft, Avast, ESET, etc.)       |
-| **Detection Rate** | **7 / 71** (Mostly Heuristic/Generic/Trojan-type flags)                        |
+| **Detection Rate** | **8 / 71** (Mostly Heuristic/Generic/Trojan-type flags)                        |
 | **Integrity**      | Private project; verified via hashes and VT results. 						  |
 
 > This Program was created with AutoIt. Some antivirus programs may incorrectly detect it as a virus.  
 > 본 프로그램은 AutoIt으로 제작되었습니다. 일부 백신이 바이러스로 오진 할 수 있습니다. 
 
-**File Checksum (SHA-256) :** `81f40368b2f29f4b86265c8287b5aba3e79cc041f417e68130e8546ff5d042af`
+**File Checksum (SHA-256) :** `eb786d98123746c36c3b8ac4b85faab95bdeee1f6a7c2c5d2a3908e69b551d1f`
 
 ---
 
@@ -102,7 +114,7 @@ This is a **private project**. No technical support is provided.
 **Developer** : MIIIME  
 **Website** : https://www.miiime.com  
 **GitHub** : [@miiimeworks](https://github.com/miiimeworks)  
-**Last Update** : 2026-10-10   
+**Last Update** : 2026-10-18   
 
 <br>
 <img width="64" height="64" alt="002" src="https://github.com/miiimeworks/M4T/blob/main/4bit_Brutal/Logo/Neon/4b_Mium_64_0_G.png?raw=true">  

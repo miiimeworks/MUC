@@ -38,9 +38,19 @@ Run cleanup by referring to LinkedIniName in the same path as MIIIMEUniCleaner.e
 [CleanupExclude] / [CleanupDelete] 섹션에 항목이 없는 경우,
 MIIIMEUniCleaner.exe 와 동일한 경로에 있는 LinkedIniName을 참고하여 클린업 실행.
 
+LinkedIniName ([Options]) is a priority list separated by pipes (|). e.g. |*_x64_M|*_M|*_x86_M|
+Entries are searched in order, and the first entry that finds an .ini file is used.
+An error occurs if one entry finds two or more files, or if no entry finds a file.
+
+LinkedIniName([Options])은 파이프(|)로 구분된 우선순위 목록입니다. 예: |*_x64_M|*_M|*_x86_M|
+앞에서부터 차례로 탐색하여 .ini 파일이 발견된 첫 항목을 사용합니다.
+한 항목에서 2개 이상 발견되거나 어느 항목에서도 발견되지 않으면 에러가 발생합니다.
+
 ※ Setting tips / 설정 팁 :
  - [CleanupExclude] : Keeps only the listed items, deletes the rest. / 목록의 항목만 남기고 나머지를 삭제.    
  - [CleanupDelete] : Deletes the listed items. / 목록의 항목을 삭제.
+ - Safety / 안전장치 : Drive roots, Documents, Desktop, Windows, Program Files, etc. are blocked by default.
+   / 드라이브 루트, 문서, 바탕화면, Windows, Program Files 등은 기본적으로 삭제가 차단됩니다.
 
 ______________________________________________________________________________________________________________________
 
@@ -59,4 +69,4 @@ This is a **private project**. No technical support is provided.
 Developer	: MIIIME 
 Website		: https://www.miiime.com 
 GitHub		: @miiimeworks 
-Update      	: 2026.10.10
+Update      	: 2026.10.18
