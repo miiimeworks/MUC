@@ -16,8 +16,7 @@ It can also remove shared registry values and execution traces (SharedClean / Tr
 Can also work as a companion tool for MIIIMETools.
 
 INI 설정 파일에 정의된 규칙에 따라 불필요한 파일과 폴더를 정리합니다.  
-'삭제(Delete)' 모드와 '남기기(Exclude)' 모드를 지원하며, 공용 레지스트리 값과 실행 흔적도 정리할 수 있습니다 (SharedClean / TraceClean).  
-미메툴즈의 보조 도구로 사용할 수 있습니다.
+'삭제(Delete)' 모드와 '남기기(Exclude)' 모드를 지원하며, 공용 레지스트리 값과 실행 흔적도 정리할 수 있습니다 (SharedClean / TraceClean).  미메툴즈의 보조 도구로 사용할 수 있습니다.
 
 <br>
 <img width="402" height="197" alt="001" src="https://github.com/miiimeworks/MUC/blob/main/Preview/001.png?raw=true" style="margin-top: 20px; margin-bottom: 20px;">
